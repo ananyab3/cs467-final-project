@@ -39,7 +39,6 @@ Address,Price,Beds,Source
 "709 W  Nevada St   #2, Urbana, IL 61801",1200,2bd,Trulia
 "1004 W  Main St, Urbana, IL 61801",1590,2bd,Trulia
 "702 West Green Street - 3, Urbana, IL 61801",1395-1495,3bd,Trulia
-Address,Price,Beds,Source
 "202 S Lincoln Ave - 3, Urbana, IL 61801",850-950,1-2bd,Trulia
 "208 N Harvey St - 2, Urbana, IL 61801",1295-1675,2-3bd,Trulia
 "806 W  Stoughton St, Urbana, IL 61801",695,1bd,Trulia
@@ -80,7 +79,6 @@ Address,Price,Beds,Source
 "214 W  Vermont Ave, Urbana, IL 61801",1850,3bd,Trulia
 "606 E  Elm St   #3, Urbana, IL 61802",815,1bd,Trulia
 "601 W  Nevada St, Urbana, IL 61801",2100,3bd,Trulia
-Address,Price,Beds,Source
 "104 S  Grove St   #11, Urbana, IL 61802",975,1bd,Trulia
 "104 S  Grove St   #9, Urbana, IL 61802",760,1bd,Trulia
 "104 S  Grove St   #8, Urbana, IL 61802",890,1bd,Trulia
@@ -121,7 +119,6 @@ Address,Price,Beds,Source
 "908 N  Broadway Ave #409-1, Urbana, IL 61801",895,2bd,Trulia
 "904 N  Broadway Ave #101-1, Urbana, IL 61801",895,2bd,Trulia
 "908 N  Broadway Ave #407-1-1, Urbana, IL 61801",895,2bd,Trulia
-Address,Price,Beds,Source
 "908 N  Broadway Ave #308-1, Urbana, IL 61801",895,2bd,Trulia
 "904 N  Broadway Ave  #12-1, Urbana, IL 61801",895,2bd,Trulia
 "908 N  Broadway Ave  #401-1, Urbana, IL 61801",895,2bd,Trulia
@@ -162,7 +159,6 @@ Address,Price,Beds,Source
 "1504 Lincolnwood Dr, Urbana, IL 61802",1300,3bd,Trulia
 "1301 E  Harding Dr   #f9b0f818c, Urbana, IL 61801",615,1bd,Trulia
 "1117 E  Willard St, Urbana, IL 61801",1150,2bd,Trulia
-Address,Price,Beds,Source
 "502 W  Elm St   #9, Urbana, IL 61801",645,Studio,Trulia
 "803 E  Harding Dr, Urbana, IL 61801",1050,2bd,Trulia
 "702WES, Urbana, IL 61801",762-783,1bd,Trulia

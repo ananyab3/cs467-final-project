@@ -9,5 +9,3 @@ __pycache__/
 
 # macOS
 .DS_Store
-
-data/police_incidents

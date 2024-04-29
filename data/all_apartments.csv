@@ -1,4 +1,4 @@
-,Address,Price,Beds,Source,lat,long
+,Address,Price per Bed,# Beds,Source,Latitude,Longitude
 0,"1901 N Lincoln Ave, Urbana, IL 61801",615,2bd,apartments.com,40.1299138,-88.22012864975372
 1,"1901 N Lincoln Ave, Urbana, IL 61801",565,3bd,apartments.com,40.1299138,-88.22012864975372
 2,"1901 N Lincoln Ave, Urbana, IL 61801",495,4bd,apartments.com,40.1299138,-88.22012864975372

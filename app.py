@@ -2,6 +2,7 @@ from shiny import App, render, ui
 import pandas as pd
 import plotly.express as px
 import plotly.graph_objects as go
+import plotly.graph_objects as go
 from shinywidgets import output_widget, render_widget
 from datetime import datetime
 from ipywidgets import widgets, interactive, Output
@@ -58,6 +59,7 @@ def server(input, output, session):
             marker=dict(size=6, color='red', opacity=0.7),  # Update marker size for df2
             name='Complaints'
         )
+        
         
         # Update layout
         fig.update_layout(mapbox_style="open-street-map")

@@ -1,4 +1,4 @@
 Ananya Barman: Worked on prototype of visualizations and code for map implementation.
-Anushant Singh: Worked on code for bar chart.
+Anushant Singh: Worked on code for bar chart and pie chart.
 Samridhi Verma: Worked on slides.
 Jason Zalewski: Worked on prototype of visualizations and code for map implementation.

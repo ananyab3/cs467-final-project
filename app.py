@@ -18,7 +18,7 @@ app_ui = ui.page_fluid(
     ui.navset_pill(
         ui.nav_panel("# of Beds vs. Price per Bed", output_widget("bar_chart")),
         ui.nav_panel("Disposition Categories for Nuisances", output_widget("pie_chart")),
-        ui.nav_panel("Map of Apartments and Nuisance Complaints",
+        ui.nav_panel("Map of Apartments (CU) and Nuisance Complaints (Urbana)",
                     ui.input_slider("price_per_bed", "Price per Bed", 
                         min=df1['Price per Bed'].min(), max=df1['Price per Bed'].max(),
                         value=[df1['Price per Bed'].min(), df1['Price per Bed'].max()]),
@@ -48,7 +48,7 @@ def server(input, output, session):
 
         fig = px.scatter_mapbox(filtered_df1, lat='Latitude', lon='Longitude',
                                 hover_name='Address', hover_data=['Price per Bed', '# Beds'],
-                                zoom=10, color_discrete_sequence=['blue'], opacity=0.7)
+                                zoom=10, color_discrete_sequence=['violet'], opacity=0.1)
         
         # Update marker size for df1
         fig.update_traces(marker=dict(size=12, opacity=0.7))
@@ -59,7 +59,7 @@ def server(input, output, session):
             mode='markers',
             hoverinfo='text',
             hovertext=df2['Type of Complaint'],
-            marker=dict(size=6, color='red', opacity=0.7),  # Update marker size for df2
+            marker=dict(size=8, color='darkseagreen', opacity=0.1),  # Update marker size for df2
             name='Complaints'
         )
         
@@ -74,7 +74,7 @@ def server(input, output, session):
         fig = go.Figure(data=go.Scatter(x=df1['# Beds'],
                                 y=df1['Price per Bed'],
                                 mode='markers',
-                                marker_color='green'))
+                                marker_color='darkseagreen'),)
 
         fig.update_layout(
                         xaxis_title='# of Beds',

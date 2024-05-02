@@ -1,4 +1,4 @@
-Ananya Barman: Worked on prototype of visualizations and code for map implementation.
-Anushant Singh: Worked on code for bar chart and pie chart.
-Samridhi Verma: Worked on slides.
-Jason Zalewski: Worked on prototype of visualizations and code for map implementation.
+Ananya Barman: Programmed primary visualization and created web application; Assisted in creating slides
+Anushant Singh: Created simpler visualizations (pie chart and bar chart).
+Samridhi Verma: Assisted working on the slides.
+Jason Zalewski:  Scraped apartment data (took over 10 hrs) and helped program primary visualization.

@@ -14,7 +14,7 @@ df1['# Beds'] = df1['# Beds'].astype('int')
 df2 = pd.read_csv('data/all_nuisance_complaints.csv')
 
 app_ui = ui.page_fluid(
-    ui.panel_title("Nuisance Complaints & Apartments in Urbana"),
+    ui.panel_title("Nuisance Complaints (Urbana) & Apartments (CU)"),
     ui.navset_pill(
         ui.nav_panel("# of Beds vs. Price per Bed", output_widget("bar_chart")),
         ui.nav_panel("Disposition Categories for Nuisances", output_widget("pie_chart")),
